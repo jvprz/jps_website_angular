@@ -1,0 +1,25 @@
+.img {
+  position: absolute;
+  width: 960px;
+  height: 960px;
+  z-index: -2;
+  opacity: 50%;
+  animation: mymove 175s infinite;
+}
+
+.tl {
+  top: -480px;
+  left: -480px;
+
+}
+
+.br {
+  bottom: -1440px;
+  right: -480px;
+}
+
+@keyframes mymove {
+  0% {transform: rotate(360deg);}
+}
+
+

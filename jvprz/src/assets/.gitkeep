@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-2 bg-red">
+        Red
+      </div>
+      <div class="col-md-2 bg-green">
+        Green
+      </div>
+      <div class="col-md-2 bg-blue">
+        Blue
+      </div>
+      <div class="col-md-2 bg-yellow">
+        Yellow
+      </div>
+    </div>
+</div>
