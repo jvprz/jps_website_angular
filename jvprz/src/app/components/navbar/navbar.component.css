@@ -1,3 +1,6 @@
 .top-nav {
   border-bottom: 3px solid #d9534f;
 }
+.nav-link:hover {
+  color:#d9534f !important;
+}
