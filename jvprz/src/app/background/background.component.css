@@ -30,5 +30,15 @@
   height: 640px;
   z-index: -1;
   opacity: 75%;
+  animation: MoveUpDown 50s infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
 }
 
