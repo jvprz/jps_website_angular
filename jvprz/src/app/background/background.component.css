@@ -3,7 +3,7 @@
   width: 960px;
   height: 960px;
   z-index: -2;
-  opacity: 50%;
+  opacity: 75%;
   animation: mymove 175s infinite;
 }
 
