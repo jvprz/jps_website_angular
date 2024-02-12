@@ -1,9 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  background-color: #dcdcdc !important;
+/* Website color palette */
+:root {
+  /* Primary light color (grey) */
+  --primary-light-color: #f7f7f7;
+  /* Dark color (grey) */
+  --primary-dark-color: #292b2c;
+  /* Secondary color (red) */
+  --secondary-color: #d9534f;
+  /* Success color */
+  --success-color: #5cb85c;
+  /* Info color */
+  --info-color: #5bc0de;
+  /* Warning color */
+  --warnig-color: #f0ad4e;
+  /* Danger color */
+  --danger-color: #d9534f;
 }
 
+/* Website background color */
+body {
+  background-color: var(--primary-light-color) !important;
+}
+
+/* Hidden scroll bar */
 ::-webkit-scrollbar {
   display: none;
 }
-

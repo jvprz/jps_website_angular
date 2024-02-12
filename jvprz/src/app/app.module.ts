@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { BackgroundComponent } from './background/background.component';
 import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { LandingComponent } from './components/landing/landing.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    BackgroundComponent,
     LandingComponent
   ],
   imports: [
