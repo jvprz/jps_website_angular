@@ -12,6 +12,9 @@
   --info-color: #5bc0de;
   /* Warning color */
   --warnig-color: #f0ad4e;
+
+  /* Website font family */
+  --font: 'Montserrat';
 }
 
 /* Website background color */

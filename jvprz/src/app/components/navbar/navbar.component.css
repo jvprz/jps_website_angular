@@ -1,5 +1,6 @@
 li {
-  font-family: 'Montserrat';font-size: 17px;
+  font-family: var(--font);
+  font-size: 17px;
 }
 .nav-link:hover, .home {
   color: var(--secondary-color) !important;
