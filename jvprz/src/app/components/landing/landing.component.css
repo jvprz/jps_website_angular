@@ -1,0 +1,16 @@
+.extra-bold {
+  font-weight: bolder;
+  font-size: 175px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.bi {
+  font-size: 20px;
+}
+.bi:hover {
+  color: var(--secondary-color) !important;
+}
