@@ -6,3 +6,15 @@ li {
   color: var(--secondary-color) !important;
   border-bottom: 0.5px solid var(--secondary-color);
 }
+
+.navbar-nav {
+  /* Optional: Center links on smaller screens */
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    /* Remove text-align for larger screens */
+    text-align: unset;
+  }
+}
